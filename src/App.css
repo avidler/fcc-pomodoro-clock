@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web|Permanent+Marker&display=swap');
+
+body {
+  max-width:80%;
+  height: auto;
+  background-image:url('tomato.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+  font-family: 'Istok Web', cursive;
+}
+
+span{
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+.App-link {
+  color: #09d3ac;
+}
+
+#timer-container {
+  width: 100%;
+  align-content: center;
+  min-height: 90vh;
+  border: 0px solid;
+  margin: auto;
+  display: grid;
+
+  font-size: 1.5vw;
+  padding-top: 5%;
+}
+
+
+
+
+
+
+#session-container {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 15%;
+  height: 35%;
+  border: 5px solid #ff0000;
+  border-radius: 15%;
+  color: #5c8816;
+  padding: 2px;
+}
+
+#break-container {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 15%;
+  height: 35%;
+  border: 5px solid #ff0000;
+  border-radius: 15%;
+  color: #5c8816;
+  padding: 2px;
+}
+
+#session-label, #break-label {
+  position: relative;
+  margin-top: 10%;
+  width: 100%;
+  margin:auto;
+  float:left;
+  padding-bottom: 10%;
+  font-size: 1.2em;
+}
+
+#session-decrement, #break-decrement { 
+  position: relative;
+  width: 25%;
+  float: left;
+  height: 25%;
+  border: solid 1px;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 1.2em;
+}
+
+
+#session-length, #break-length {
+  position: relative;
+  width: 42%;
+  float: left;
+  font-size: 2em;
+}
+
+#session-increment, #break-increment { 
+  position: relative;
+  width: 25%;
+  float: right;
+  height: 25%;
+  border: solid 1px;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 1.2em;
+}
+
+#timer-display {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  width: 30%;
+  height: 45%;
+}
+
+#timer-label {
+  position: relative;
+  font-size: 1.5em;
+  color: #f8f8f8;
+}
+
+#time-left {
+  position: relative;
+  font-size: 2.5em;
+  color: #f8f8f8;
+  border: solid 2px #f8f8f8;
+  border-radius: 5px;
+}
+
+#start_stop {
+  position: relative;
+  font-size: 1em;
+  color: #f8f8f8;
+  padding-right: 5%;
+}
+
+#reset {
+  padding-left: 5%;
+  position: relative;
+  font-size: 1em;
+  color: #f8f8f8;
+}
+
+#header {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-size: 2.5em;
+  font-family: 'Finger Paint', cursive;
+}
+
+#header > p {
+  font-size: 0.5em;
+  margin: 0;
+}
